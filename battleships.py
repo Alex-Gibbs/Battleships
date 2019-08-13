@@ -27,4 +27,3 @@ for ship in ship_girths:
 for line in board:
     print(line)
 
-
