@@ -48,6 +48,7 @@ class Board:
 
         for ship in self.list_of_ship_lengths:
             while check_coord:
+                self.print_board()
                 coord = input('Please enter a coordinate, in format x, y: ')
                 try:
                     coord = coord.replace(' ', '').split(',')
@@ -71,4 +72,4 @@ class Board:
 if __name__ == '__main__':
     battleship_board = Board(10, [2, 3, 3, 4, 5])
     battleship_board.set_ships()
-    print(battleship_board)
+    battleship_board.print_board()
