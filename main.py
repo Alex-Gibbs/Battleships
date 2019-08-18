@@ -50,6 +50,7 @@ if __name__ == '__main__':
                            [player_1_ship_1, player_1_ship_2, player_1_ship_3, player_1_ship_4, player_1_ship_5])
     player_2_board = Board(GRID_SIZE,
                            [player_2_ship_1, player_2_ship_2, player_2_ship_3, player_2_ship_4, player_2_ship_5])
+    # Start game
     print("Player 1 get ready to position your battleships!")
     input("Press Enter to continue...")
     player_1_board.set_ships()
